@@ -16,7 +16,7 @@ Libraries in use:
 - [bgfx](https://github.com/bkaradzic/bgfx) for the graphics library
 - [Dear ImGui](https://github.com/ocornut/imgui) for the user interface.
 
-Build configuration and is based on [sdl-bgfx-imgui-starter](https://github.com/pr0g/sdl-bgfx-imgui-starter).
+Build setup is based on [sdl-bgfx-imgui-starter](https://github.com/pr0g/sdl-bgfx-imgui-starter).
 
 ## Setup
 
