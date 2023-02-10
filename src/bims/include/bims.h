@@ -17,18 +17,10 @@
 
 namespace bims
 {
-    static bgfx::ShaderHandle createShader(const std::string& shader, const char* name)
-    {
-        const bgfx::Memory* mem = bgfx::copy(shader.data(), shader.size());
-        const bgfx::ShaderHandle handle = bgfx::createShader(mem);
-        bgfx::setName(handle, name);
-        return handle;
-    }
-
     class Application
     {
     public:
-        Application(uint32_t width = 1280, uint32_t height = 768);
+        Application(uint32_t width = 1280, uint32_t height = 720);
 
         int run(int argc, char** argv);
 

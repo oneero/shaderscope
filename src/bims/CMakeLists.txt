@@ -6,10 +6,12 @@ set(bims_headers
     "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/imgui_impl_sdl.h"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/fs_ocornut_imgui.bin.h"
     "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/vs_ocornut_imgui.bin.h"
-    "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/file-ops.h")
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/file-ops.h"
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/bims/shader-utils.h")
 
 set(bims_sources
     "${CMAKE_CURRENT_SOURCE_DIR}/src/bims.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/shader-utils.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/imgui_impl_bgfx.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/imgui_impl_sdl.cpp")
 
